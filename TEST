@@ -1,0 +1,9 @@
+string = "abc"
+print(id(string))
+string[2] = "d"
+print(id(string))
+
+ex_list = [a, b, c]
+print(id(ex_list))
+ex_list[2] = "d"
+print(id(ex_list))
